@@ -1,0 +1,10 @@
+<h1>Todo List</h1>
+<mat-selection-list #todos>
+    <mat-list-option *ngFor="let title of todoTitle; index as i">
+        {{i+1}}.  {{title}}
+    </mat-list-option>
+</mat-selection-list>
+
+<p>
+    Tasks Completed: {{todos.selectedOptions.selected.length}}
+</p>
