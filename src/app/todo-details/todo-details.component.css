@@ -2,3 +2,8 @@ table {
   width: 100%;
   margin: 0px auto;
 }
+
+.container {
+    background-color: white;
+    padding: 4%;
+}

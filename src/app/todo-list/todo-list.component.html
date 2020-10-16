@@ -1,11 +1,14 @@
-<h1>Todo List</h1>
-<mat-selection-list #todos>
-    <mat-list-option *ngFor="let todo of dataSource">
-        {{todo.title}} 
-    </mat-list-option>
-</mat-selection-list>
+<div class="container">
+    <div class="mat-headline">Todo List</div>
+    <mat-selection-list #todos>
+        <mat-list-option *ngFor="let todo of dataSource">
+            {{todo.title}}
+        </mat-list-option>
+    </mat-selection-list>
+    <br>
+    <p>
+        <em>Tasks Completed: {{todos.selectedOptions.selected.length}}</em>
+    </p>
 
-<p>
-    <em>Tasks Completed: {{todos.selectedOptions.selected.length}}</em>
-</p>
+</div>
 
