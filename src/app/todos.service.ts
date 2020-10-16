@@ -8,11 +8,11 @@ export interface Todos {
 }
 
 const TODO_DATA: Todos[] = [
-  { id: 1, date: '12/10/2020', title: 'Shopping', description: 'Get apples 🍎' },
-  { id: 2, date: '13/10/2020', title: 'Laundry', description: 'Wash judo uniform 🥋' },
-  { id: 3, date: '14/10/2020', title: 'Reading', description: 'Read "A Little Life" 📗' },
-  { id: 4, date: '14/10/2020', title: 'Project', description: 'Make todo app using Angular 😛' },
-  { id: 5, date: '14/10/2020', title: 'Homework', description: 'Mathematics homework ➕➖➗' }
+  { id: 1, date: '12/10/20', title: 'Shopping', description: 'Get apples 🍎' },
+  { id: 2, date: '13/10/20', title: 'Laundry', description: 'Wash judo uniform 🥋' },
+  { id: 3, date: '14/10/20', title: 'Reading', description: 'Read "A Little Life" 📗' },
+  { id: 4, date: '14/10/20', title: 'Project', description: 'Make todo app using Angular 😛' },
+  { id: 5, date: '14/10/20', title: 'Homework', description: 'Mathematics homework ➕➖➗' }
   
 ];
 

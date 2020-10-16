@@ -2,7 +2,9 @@
     <div class="mat-headline">Todo List</div>
     <mat-selection-list #todos>
         <mat-list-option *ngFor="let todo of dataSource">
-            {{todo.title}}
+            <div matListIcon>{{todo.id}}</div>
+            {{todo.title}} 
+            <mat-divider></mat-divider>
         </mat-list-option>
     </mat-selection-list>
     <br>
